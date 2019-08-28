@@ -31,7 +31,7 @@ export default {
     }),
     terser()
   ],
-  external: ['fs', 'path', externalDependencies],
+  external: [externalDependencies],
   onwarn: warning => {
     if (warning.code === 'THIS_IS_UNDEFINED') return;
   }
