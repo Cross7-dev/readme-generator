@@ -12,4 +12,13 @@ program
 
 program.parse(process.argv);
 
+/**
+ *
+ * @description This project was born mainly to satisfy my desire for knowledge and to simplify my workflow. Being a curious (and also lazy) developer I have always wondered how to avoid wasting my working time to write README.md files who fits perfectly project by project and that's why I wrote a tool to help me simplify and speed up these processes.
+ * @version 0.1.2
+ * @author Maurizio Battaghini <maurizio.battaghini+tech@gmail.com>
+ * @copyright Maurizio Battaghini 2019
+ * @file
+ *
+ */
 Run(program);

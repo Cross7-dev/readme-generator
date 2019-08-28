@@ -73,10 +73,15 @@ const parseQuestions = async questionsPath => {
 };
 
 /**
- * Download data from the specified URL.
  *
- * @author Jane Smith <jsmith@example.com>
+ * @name CLI
  * @async
+ * @function
+ * @param {string} path for the entry file
+ * @param {string} define the name of the output file
+ * @param {string} path for the template file
+ * @param {bool} show the debug result
+ *
  */
 const Run = async ({ entry, output, template, debug }) => {
   messageSettings.mainTitle('Readme\nGenerator');
