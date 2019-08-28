@@ -1,6 +1,6 @@
 {
   "name": "@ibbatta/readme-generator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This project was born mainly to satisfy my desire for knowledge and to simplify my workflow. Being a curious (and also lazy) developer I have always wondered how avoid to waste my working time to write README.md files who fits perfectly project by project and that's why I wrote a tool to help me simplify and speed up these processes.",
   "main": "./src/index.js",
   "bin": {
@@ -40,8 +40,8 @@
     "readme-quality"
   ],
   "engines": {
-    "node": ">= 8.9.x",
-    "npm": ">= 6.3.x"
+    "node": ">= 10.16.x",
+    "npm": ">= 6.9.x"
   },
   "license": "MIT",
   "private": false,
