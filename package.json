@@ -53,6 +53,7 @@
     "test:watch": "jest --watch",
     "prepare": "npm run build",
     "changelog": "auto-changelog",
+    "doc": "jsdoc ./src/ -d doc",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "dependencies": {

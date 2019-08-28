@@ -29,7 +29,11 @@ export default {
     copy({
       assets: ['./src/readme']
     }),
-    terser()
+    terser({
+      output: {
+        comments: 'all'
+      }
+    })
   ],
   external: [externalDependencies],
   onwarn: warning => {
