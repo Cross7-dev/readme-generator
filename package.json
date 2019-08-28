@@ -24,11 +24,13 @@
       "twitter": "https://twitter.com/battago"
     }
   },
-  "contributors": [{
-    "name": "Maurizio Battaghini",
-    "url": "http://github.com/ibbatta",
-    "reason": "Project management"
-  }],
+  "contributors": [
+    {
+      "name": "Maurizio Battaghini",
+      "url": "http://github.com/ibbatta",
+      "reason": "Project management"
+    }
+  ],
   "keywords": [
     "readme",
     "readme-template",
@@ -53,7 +55,7 @@
     "test:watch": "jest --watch",
     "prepare": "npm run build",
     "changelog": "auto-changelog",
-    "doc": "jsdoc ./src/ -d doc",
+    "docs": "jsdoc ./src/ -d docs",
     "version": "auto-changelog -p && git add CHANGELOG.md"
   },
   "dependencies": {
@@ -98,7 +100,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "src/*.js": [
       "eslint --fix",
       "git add"
     ]
